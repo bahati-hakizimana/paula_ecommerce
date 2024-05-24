@@ -22,7 +22,7 @@ const Subscribe = () => {
           <h1 className="text-2xl !text-center sm:text-left sm:text-4xl font-semibold">
             Get Notified About New Arrival
           </h1>
-          <div className=" flex gap-2">
+          <div className=" flex flex-col md:flex-row md:justify-center md:items-center md:gap-2 justify-center gap-2">
           <input
             data-aos="fade-up"
             type="text"

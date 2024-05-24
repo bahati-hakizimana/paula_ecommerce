@@ -258,7 +258,7 @@ const Products = ({ handleOrderPopup }) => {
 
   return (
     <div className="mt-14 mb-12" id="product">
-      <div className="container flex justify-center gap-2">
+      <div className="container flex flex-col md:flex-row md:justify-center md:items-center md:gap-2 justify-center gap-2">
         {/* Category section */}
         <div className="w-72 h-screen bg-gray-400 text-white p-4 rounded-lg shadow-lg">
           <h1 className="text-xl font-bold mb-4">Categories</h1>
@@ -290,7 +290,7 @@ const Products = ({ handleOrderPopup }) => {
             </p>
           </div>
           {/* Search and Sort */}
-          <div className="mb-4 flex justify-center gap-4">
+          <div className="mb-4 flex flex-col md:flex-row md:justify-center md:items-center md:gap-2 justify-center gap-2">
             <div className="relative">
               <input
                 type="text"
