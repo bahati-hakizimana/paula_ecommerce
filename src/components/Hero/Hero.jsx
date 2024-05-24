@@ -1,7 +1,8 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/products/p6.jpg";
+import Image2 from "../../assets/products/p7.jpg";
+// import Image3 from "../../assets/hero/sale.png";
+import Image3 from "../../assets/products/p1.jpg";
 import Slider from "react-slick";
 
 const ImageList = [
@@ -76,11 +77,16 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos-delay="300"
                   >
                     <button
+                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
+                    >
+                      Get Started
+                    </button>
+                    {/* <button
                       onClick={handleOrderPopup}
                       className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     >
                       Order Now
-                    </button>
+                    </button> */}
                   </div>
                 </div>
                 {/* image section */}

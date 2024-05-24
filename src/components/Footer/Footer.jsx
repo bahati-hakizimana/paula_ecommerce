@@ -39,14 +39,14 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-white">
+    <div className="text-white bg-black">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              CD
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
@@ -108,11 +108,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Kigali, KST</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+250782458449</p>
                 </div>
               </div>
             </div>
