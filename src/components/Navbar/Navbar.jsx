@@ -28,6 +28,11 @@ const Menu = [
     name: "Products",
     link: "/products",
   },
+  {
+    id: 5,
+    name: "Blogs",
+    link: "/products",
+  },
 ];
 
 const Navbar = ({ handleOrderPopup }) => {
@@ -48,7 +53,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           <div>
             <Link to="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
-              <img src={Logo} alt="Logo" className="w-10" />
+              {/* <img src={Logo} alt="Logo" className="w-10" /> */}
               CD
             </Link>
           </div>

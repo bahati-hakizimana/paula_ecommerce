@@ -49,7 +49,7 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -59,7 +59,7 @@ const ProductsData = [
   {
     id: 5,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -69,7 +69,7 @@ const ProductsData = [
   {
     id: 6,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -139,7 +139,7 @@ const ProductsData = [
   {
     id: 13,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -149,7 +149,7 @@ const ProductsData = [
   {
     id: 14,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -159,7 +159,7 @@ const ProductsData = [
   {
     id: 15,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Decorating product",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -258,7 +258,7 @@ const Products = ({ handleOrderPopup }) => {
 
   return (
     <div className="mt-14 mb-12" id="product">
-      <div className="container flex flex-col md:flex-row md:justify-center md:items-center md:gap-2 justify-center gap-2">
+      <div className="container flex gap-4 flex-col md:flex-row md:justify-center md:items-center md:gap-4 justify-center">
         {/* Category section */}
         <div className="w-72 h-screen bg-gray-400 text-white p-4 rounded-lg shadow-lg">
           <h1 className="text-xl font-bold mb-4">Categories</h1>
