@@ -1,30 +1,35 @@
 import React from "react";
 import Slider from "react-slick";
+import Img1 from '../../assets/products/paola12.png'
 
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
+    name: "Paola",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    img: Img1,
+    role:"Ui/Ux"
   },
   {
     id: 2,
-    name: "Satya Nadella",
+    name: "Paola",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    img: Img1,
+    role:"Designer"
   },
   {
     id: 3,
-    name: "Virat Kohli",
+    name: "Paola",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    img: Img1,
+    role:"Developer"
   },
   {
     id: 5,
-    name: "Sachin Tendulkar",
+    name: "Paola",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
+    img: Img1,
+    role:"Designer"
   },
 ];
 
@@ -72,11 +77,11 @@ const Testimonials = () => {
       <div className="container">
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            What our customers are saying
-          </p>
+          {/* <p data-aos="fade-up" className="text-sm text-primary">
+            Wha
+          </p> */}
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Testimonials
+            What Our Client Says
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
@@ -106,6 +111,7 @@ const Testimonials = () => {
                       <h1 className="text-xl font-bold text-black/80 dark:text-light">
                         {data.name}
                       </h1>
+                      <span className="mt-2 text-gray-400">{data.role}</span>
                     </div>
                   </div>
                   <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">

@@ -20,26 +20,28 @@ const BannerImg = {
 
 const FooterLinks = [
   {
-    title: "Home",
+    title: "Texile",
     link: "/#",
   },
   {
-    title: "About",
+    title: "New Arrival",
     link: "/#about",
   },
-  {
-    title: "Contact",
-    link: "/#contact",
-  },
-  {
-    title: "Blog",
-    link: "/#blog",
-  },
+  // {
+  //   title: "Contact",
+  //   link: "/#contact",
+  // },
+  // {
+  //   title: "Blog",
+  //   link: "/#blog",
+  // },
 ];
 
 const Footer = () => {
   return (
-    <div className="text-white bg-black">
+
+    <>
+     <div className="text-white bg-black h-1/2">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
@@ -59,7 +61,7 @@ const Footer = () => {
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
+                  Products
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -93,33 +95,39 @@ const Footer = () => {
 
             {/* social links */}
 
-            <div>
-              <div className="flex items-center gap-3 mt-6">
-                <a href="#">
-                  <FaInstagram className="text-3xl" />
-                </a>
-                <a href="#">
-                  <FaFacebook className="text-3xl" />
-                </a>
-                <a href="#">
-                  <FaLinkedin className="text-3xl" />
-                </a>
-              </div>
-              <div className="mt-6">
-                <div className="flex items-center gap-3">
-                  <FaLocationArrow />
-                  <p>Kigali, KST</p>
-                </div>
-                <div className="flex items-center gap-3 mt-3">
-                  <FaMobileAlt />
-                  <p>+250782458449</p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
     </div>
+
+<div className=" flex items-center justify-center gap-4">
+<div className="flex items-center gap-3 mt-4 mb-4">
+  <a href="#">
+    <FaInstagram className="text-3xl" />
+  </a>
+  <a href="#">
+    <FaFacebook className="text-3xl" />
+  </a>
+  <a href="#">
+    <FaLinkedin className="text-3xl" />
+  </a>
+</div>
+{/* <div className="mt-6">
+  <div className="flex items-center gap-3">
+    <FaLocationArrow />
+    <p>Kigali, KST</p>
+  </div>
+  <div className="flex items-center gap-3 mt-3">
+    <FaMobileAlt />
+    <p>+250782458449</p>
+  </div>
+</div> */}
+</div>
+    </>
+   
+
+    
   );
 };
 
